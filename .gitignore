@@ -1,3 +1,7 @@
+#idea
+.idea/
+*.imi
+
 # Compiled class file
 *.class
 
