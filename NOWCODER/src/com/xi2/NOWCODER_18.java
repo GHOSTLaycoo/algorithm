@@ -7,6 +7,8 @@ import java.util.Scanner;
 /**
  * @author GHOSTLaycoo
  * @date 2019/9/6 0006 - 下午 17:51
+ *
+ * 题目:德才论 (25)
  */
 public class NOWCODER_18 {
     public static void main(String[] args) {

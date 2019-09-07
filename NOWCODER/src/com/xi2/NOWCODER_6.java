@@ -6,6 +6,8 @@ import java.util.Scanner;
 /**
  * @author GHOSTLaycoo
  * @date 2019/8/16 0016 - 上午 9:39
+ *
+ * 题目:A除以B (20)
  */
 public class NOWCODER_6 {
     public static void main(String[] args) {

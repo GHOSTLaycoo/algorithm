@@ -7,6 +7,8 @@ import java.util.Scanner;
 /**
  * @author GHOSTLaycoo
  * @date 2019/8/19 0019 - 下午 17:27
+ *
+ * 题目:人口普查(20)
  */
 
 class person{
