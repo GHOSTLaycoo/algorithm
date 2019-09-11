@@ -7,6 +7,10 @@ package com.xi2;
 public class Test {
 
     public static void main(String[] args) {
-        String str = "";
+        Object str1 = "aaaa";
+        Object str2 = "aaaa";
+        Object s = new String("aaaa");
+
+        System.out.println(str2==s);
     }
 }

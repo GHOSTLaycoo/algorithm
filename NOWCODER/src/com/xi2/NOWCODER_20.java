@@ -5,6 +5,8 @@ import java.util.*;
 /**
  * @author GHOSTLaycoo
  * @date 2019/9/8 0008 - 下午 23:55
+ *
+ * 题目:反转链表 (25)
  */
 public class NOWCODER_20 {
 
