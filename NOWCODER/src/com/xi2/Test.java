@@ -7,10 +7,24 @@ package com.xi2;
 public class Test {
 
     public static void main(String[] args) {
-        Object str1 = "aaaa";
-        Object str2 = "aaaa";
-        Object s = new String("aaaa");
-
-        System.out.println(str2==s);
+        String s = "adefgfeda";
+        int fun = fun(s);
+        System.out.println(fun);
     }
+
+    private static int fun(String s) {
+        int left = 0;
+        int right = s.length()-1;
+        for(int i =0;i<s.length()/2;i++){
+            if(s.charAt(left)!=s.charAt(right)){
+                return 0;
+            }else{
+                left++;
+                right--;
+            }
+        }
+        return 1;
+    }
+
+
 }
