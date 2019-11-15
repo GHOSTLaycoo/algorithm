@@ -2,21 +2,21 @@ package com.xi2;
 
 /**
  * @author GHOSTLaycoo
- * @date 2019/10/2 0002 - 下午 22:47
+ * @date 2019/11/15 0015 - 下午 15:25
  *
- * 题目:去除重复数
+ * 题目:替换空格
  */
 public class Q_2 {
-    public static void main(String[] args) {
-        int[] ints = {2,3,1,0,2,5,3};
-
-        for(int i = 0;i<ints.length;i++){
-            for(int j = i+1;j<ints.length;j++){
-                if(ints[i] == ints[j]){
-                    System.out.println(ints[i]);
-                    break;
-                }
+    public static String replaceSpace(StringBuffer str) {
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)==' '){
+                str.replace(i,i+1,"%20");
             }
         }
+        return str.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(replaceSpace(new StringBuffer("We Are Happy")));
     }
 }
