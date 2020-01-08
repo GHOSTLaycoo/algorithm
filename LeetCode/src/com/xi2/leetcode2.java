@@ -30,6 +30,24 @@ public class leetcode2 {
 
 class ListNode {
       int val;
-      ListNode next;
+      ListNode next = null;
       ListNode(int x) { val = x; }
+
+      ListNode(int x,ListNode y){ val = x;next = y;}
+
+    public int getVal() {
+        return val;
+    }
+
+    public void setVal(int val) {
+        this.val = val;
+    }
+
+    public ListNode getNext() {
+        return next;
+    }
+
+    public void setNext(ListNode next) {
+        this.next = next;
+    }
 }

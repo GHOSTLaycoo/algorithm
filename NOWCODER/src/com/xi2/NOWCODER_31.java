@@ -5,6 +5,8 @@ import java.util.Scanner;
 /**
  * @author GHOSTLaycoo
  * @date 2019/10/9 0009 - 下午 14:24
+ *
+ * 题目:有几个PAT
  */
 public class NOWCODER_31 {
     public static void main(String[] args) {
